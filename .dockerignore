@@ -1,0 +1,15 @@
+## node_modules
+node_modules/
+
+## dotenv (.env)
+.env*
+!.env-example
+
+## typescript output dir
+dist/
+
+## Logs
+*.log*
+
+## git
+.git*
