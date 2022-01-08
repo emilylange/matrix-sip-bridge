@@ -1,5 +1,23 @@
 {
   "type": "module",
+  "name": "matrix-sip-bridge",
+  "version": "0.1.0",
+  "description": "A bridge between Matrix.org and SIP (VoIP)",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndeedNotJames/matrix-sip-bridge.git"
+  },
+  "keywords": [
+    "matrix.org",
+    "matrix",
+    "voip",
+    "sip",
+    "bridge"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "license": "AGPL-3.0",
   "scripts": {
     "start": "node --experimental-specifier-resolution=node dist/index.js",
