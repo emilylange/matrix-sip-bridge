@@ -1,0 +1,17 @@
+## Please see ./docs (https://github.com/IndeedNotJames/matrix-sip-bridge/tree/main/docs)
+## for more details
+version: "3"
+services:
+  sipgate:
+    image: "ghcr.io/indeednotjames/matrix-sip-bridge:edge"
+    restart: "always"
+    environment:
+      MX_HOMESERVER: "https://homeserver.example"
+      MX_ACCESSTOKEN: "See 'Configure' below in ./docs"
+      MX_USERID: "@localpart:homeserver.example"
+      MX_ROOMID: "!roomId:homeserver.example"
+
+      SIP_SERVER: "wss://sip.sipgate.de"
+      SIP_URI: "sip:userAddress@sipgate.de"
+      SIP_USER: "your userAddress"
+      SIP_PASSWORD: "your sip user password"
