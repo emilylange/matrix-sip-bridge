@@ -15,3 +15,12 @@ If you'd like to improve those, feel free to file a pull request or [let us know
 Feel free to ask questions, provide feedback or just hang out in the official Matrix room:
 
 [#matrix-sip-bridge:indeednotjames.com](https://matrix.to/#/#matrix-sip-bridge:indeednotjames.com)
+
+## Related Projects
+* https://github.com/KB1RD/matrix-pstn-bridge 
+  * Runs as [application service](https://www.matrix.org/docs/guides/application-services)
+  * Uses Twilio instead of generic SIP
+* https://github.com/alangecker/matrix-appservice-pstn
+  * Runs as [application service](https://www.matrix.org/docs/guides/application-services)
+  * Works with SIP providers that don't natively provide websocket endpoints
+  * Integrates as dial pad into Element
